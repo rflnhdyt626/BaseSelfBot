@@ -35,7 +35,7 @@ const xinz = conn.xinz
 
 fake = 'Self Bot By Rafli'
 fakeimage = fs.readFileSync(`./media/aqul.jpeg`)
-prefix = 'z'
+prefix = 'x'
 public = false
 
 xinz.on('message-new', async(qul) => {
