@@ -1,5 +1,5 @@
 /*
-BY AQULZZ
+BY RAF
 */
 const
 	{
@@ -33,7 +33,7 @@ const exif = new Exif();
 conn.connect()
 const xinz = conn.xinz
 
-fake = 'Self Bot By Aqulzz'
+fake = 'Self Bot By Rafli'
 fakeimage = fs.readFileSync(`./media/aqul.jpeg`)
 prefix = 'z'
 public = false
@@ -134,9 +134,7 @@ No prefix
 => ${prefix}promote
 => ${prefix}demote
 => ${prefix}kick
-=> ${prefix}add
-
-More? rakit sendirilah`
+=> ${prefix}add`
 				aqul.sendFakeStatusWithImg(from, fakeimage, textnya, fake)
 				break
             case 'test':
