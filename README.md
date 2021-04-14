@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://i.ibb.co/xh1jJ9V/c04a33a54164.png" alt="BaseSelfBot" width="300" />
+<img src="https://i.ibb.co/hdvDTT1/1.png" alt="BaseSelfBot" width="300" />
 
 # Base-SelfBot
 
