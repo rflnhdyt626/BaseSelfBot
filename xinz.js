@@ -34,7 +34,7 @@ conn.connect()
 const xinz = conn.xinz
 
 fake = 'Self Bot By Rafli'
-fakeimage = fs.readFileSync(`./media/aqul.jpeg`)
+fakeimage = fs.readFileSync(`./media/Rafli.png`)
 prefix = 'x'
 public = false
 
@@ -55,7 +55,7 @@ xinz.on('message-new', async(qul) => {
 		const args = body.trim().split(/ +/).slice(1)
 		const isCmd = body.startsWith(prefix)
 		const arg = chats.slice(command.length + 2, chats.length)
-		const ramadhan = await axios.get('https://xinzbot-api.herokuapp.com/api/hitungmundur?apikey=XinzBot&tanggal=12&bulan=4')
+		const ramadhan = await axios.get('https://xinzbot-api.herokuapp.com/api/hitungmundur?apikey=XinzBot&tanggal=12&bulan=5')
 		const ucapan = await axios.get('https://xinzbot-api.herokuapp.com/api/ucapan?apikey=XinzBot&timeZone=Asia/Jakarta')
 
         const botNumber = xinz.user.jid
@@ -98,7 +98,7 @@ xinz.on('message-new', async(qul) => {
 			case 'menu': case 'help':
 				textnya = `*${ucapan.data.result}*
 
-Hitung mundur ramdhan
+Hitung mundur idul Fitri
 	=> ${ramadhan.data.result}
 
 No prefix
